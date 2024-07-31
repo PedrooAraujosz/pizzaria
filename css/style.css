@@ -120,6 +120,7 @@ header {
 }
 
 .ifood {
+  z-index: 10;
   position: fixed;
   right: 0;
   top: 200px;
@@ -237,7 +238,7 @@ font-weight: 900;
   justify-content: center;
 }
 .forms {
-
+z-index: 2;
   width: fit-content;
   text-transform: uppercase;
   background: #f1f1f1;
@@ -248,7 +249,6 @@ font-weight: 900;
 }
 
 .forms{
-  z-index: ;
   width: 530px;
   max-width: 100%;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
@@ -303,4 +303,42 @@ margin: 0;
   color: #fff;
   font-weight: 700;
   margin-top: 20px;
+}
+footer {
+  background: #e7a200;
+  min-height: 400px;
+  margin-top: -315px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+footer #dados {
+  display: flex;
+  margin: 0 14%;
+  justify-content: space-between;
+}
+
+
+#dados p,
+#dados h4 {
+  margin: 0;
+}
+
+
+#dados h4 {
+  margin-top: 10px;
+}
+
+
+footer #dados:first-child {
+  margin-left: 20%;
+}
+
+
+#copyright {
+  text-align: center;
+  margin-top: 100px;
 }
