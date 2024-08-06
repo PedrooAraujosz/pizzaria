@@ -13,7 +13,7 @@ body {
 }
 
 .bgfundo {
-  background: url(https://placehold.co/1920x1080) no-repeat center/cover;
+  background: url(../banner-3.jpg) no-repeat center/cover;
   /* 
        background-color: blue;
        background-image: url(https://placehold.co/1920x1080); 
@@ -124,9 +124,7 @@ header {
   position: fixed;
   right: 0;
   top: 200px;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  filter: drop-shadow(-2px 4px 6px black);
 }
 #BoasVindas {
   display: flex;
@@ -190,7 +188,7 @@ header {
   border-bottom: 2px solid #a3d91c;
 }
 
-#Pizzas{
+#Pizzas {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -198,10 +196,9 @@ header {
   justify-content: center;
   gap: 10px;
   padding-top: 20px;
-
 }
 
-#Delivery{
+#Delivery {
   min-width: 270px;
   background: #ebe7db;
   margin: 50px 0;
@@ -212,43 +209,42 @@ header {
   text-align: center;
 }
 
-#Delivery h1{
-text-transform: uppercase;
-color: #d03012;
-font-weight: 900;
+#Delivery h1 {
+  text-transform: uppercase;
+  color: #d03012;
+  font-weight: 900;
 }
-#Delivery .sec-menu{
+#Delivery .sec-menu {
   justify-content: center;
   padding: 40px;
 }
-#icone{
+#icone {
   display: flex;
   justify-content: center;
   gap: 70px;
 }
-.itens{
+.itens {
   max-width: 250px;
   text-align: center;
 }
-#Contato iframe{
+#Contato iframe {
   position: absolute;
 }
-#Contato{
+#Contato {
   display: flex;
   justify-content: center;
 }
 .forms {
-z-index: 2;
+  z-index: 2;
   width: fit-content;
   text-transform: uppercase;
   background: #f1f1f1;
   border-radius: 10px;
 
   text-align: center;
-
 }
 
-.forms{
+.forms {
   width: 530px;
   max-width: 100%;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
@@ -260,12 +256,12 @@ z-index: 2;
 }
 
 .forms h2 {
-color: #e7a200;
-font-size: 28px;
-line-height: 80px;
-margin: 0;
+  color: #e7a200;
+  font-size: 28px;
+  line-height: 80px;
+  margin: 0;
 }
-.forms p{
+.forms p {
   margin: 0;
   margin-top: -12;
   margin-bottom: -13;
@@ -273,7 +269,7 @@ margin: 0;
 
 .forms small {
   color: #333;
-  
+
   font-size: 14px;
 }
 .forms input,
@@ -291,11 +287,11 @@ margin: 0;
 
 .forms form {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
 }
 
-.forms input[type="submit"]{
+.forms input[type="submit"] {
   background: #e7a200;
   border-color: #e7a200;
   width: 155px;
@@ -314,29 +310,24 @@ footer {
   justify-content: space-evenly;
 }
 
-
 footer #dados {
   display: flex;
   margin: 0 14%;
   justify-content: space-between;
 }
 
-
 #dados p,
 #dados h4 {
   margin: 0;
 }
 
-
 #dados h4 {
   margin-top: 10px;
 }
 
-
 footer #dados:first-child {
   margin-left: 20%;
 }
-
 
 #copyright {
   text-align: center;
